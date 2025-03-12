@@ -61,7 +61,7 @@ async function waiter() {
         if (able) {
             ready = true;
             clickerState = "Ready";
-            clicker.style.backgroundColor = "Green";
+            clicker.style.backgroundColor = "rgba(0, 255, 0, 0.25)";
             startTime = new Date().getTime();
         }
     }
